@@ -1,0 +1,1 @@
+Ubuntu logs were sucessfullly setup for system logs and authentication logs. I attempted to configure pfSense to output syslogs, but ingestion logs were not fully vallidated during the project documented here. 
