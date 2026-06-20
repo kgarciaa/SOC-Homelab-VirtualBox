@@ -3,4 +3,5 @@ While working on this project, I created two separate networks to simulate a rea
 I included the Metasploitable VM to simulate a vulnerable environment that I could exploit from my attacking machine and to practice offensive security techniques. I set up pfSense as my firewall and configured the Ubuntu, Windows Server, and Metasploitable VMs on the LAN network while keeping Kali on the WAN.
 I configured the IP addresses of my LAN systems to remain static so I could easily identify them in logs and ping them to verify connectivity. As for the Kali machine, I kept its IP address dynamic because I encountered complications with VirtualBox when using a static address, preventing communication between the Kali machine on the WAN and the Ubuntu machine on the LAN network. I attempted to verify connectivity using the ping command, but the packets were not being received by the Kali machine.
 Ultimately, I resolved the issue by configuring Kali to use a NAT adapter connection through the VirtualBox network configuration. I then set up Splunk on my Ubuntu VM, allowing the system to serve not only as a device within my infrastructure but also as a SIEM platform.
-![Uploading Pasted image 20260619223938.png…]()
+<img width="1057" height="1084" alt="Pasted image 20260619223938" src="https://github.com/user-attachments/assets/4b7a493b-2132-43c0-8e98-5dcccb27335c" />
+
